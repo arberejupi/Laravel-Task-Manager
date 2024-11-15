@@ -25,16 +25,16 @@ Laravel Task Manager is a simple and efficient task management application built
    DB_USERNAME=root   # Replace with your MySQL username
    DB_PASSWORD=   # Replace with your MySQL password
 
-6. Run the database migrations to set up the database structure:
+7. Run the database migrations to set up the database structure:
    php artisan migrate
 
-7. Install the required frontend dependencies:
+8. Install the required frontend dependencies:
    npm install
 
-8. Compile the frontend assets:
+9. Compile the frontend assets:
    npm run dev
 
-9. Start the Laravel development server:
+10. Start the Laravel development server:
    php artisan serve
 
 ---
