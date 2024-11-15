@@ -21,9 +21,9 @@ Laravel Task Manager is a simple and efficient task management application built
    DB_CONNECTION=mysql  
    DB_HOST=127.0.0.1  
    DB_PORT=3306  
-   DB_DATABASE=laravel   # Replace with your desired database name
-   DB_USERNAME=root   # Replace with your MySQL username
-   DB_PASSWORD=   # Replace with your MySQL password
+   DB_DATABASE=laravel
+   DB_USERNAME=root
+   DB_PASSWORD=
 
 7. Run the database migrations to set up the database structure:
    php artisan migrate
