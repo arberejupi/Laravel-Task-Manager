@@ -11,13 +11,13 @@ Laravel Task Manager is a simple and efficient task management application built
    cd Laravel-Task-Manager
    composer install
 
-3. Copy the `.env.example` file to `.env` to set up environment configurations:
+4. Copy the `.env.example` file to `.env` to set up environment configurations:
    copy .env.example .env
 
-4. Generate a unique application key:
+5. Generate a unique application key:
    php artisan key:generate
 
-5. Open the `.env` file and configure the database:
+6. Open the `.env` file and configure the database:
    DB_CONNECTION=mysql  
    DB_HOST=127.0.0.1  
    DB_PORT=3306  
